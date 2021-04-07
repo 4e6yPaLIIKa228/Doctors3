@@ -1,0 +1,17 @@
+﻿<Window x:Class="Doctor.WinForms.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Doctor.WinForms"
+        mc:Ignorable="d"
+        Title="Register" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="BtClose" Content="Выйти" HorizontalAlignment="Left" Height="50" Margin="28,347,0,0" VerticalAlignment="Top" Width="125" Click="BtClouse_Click"/>
+        <Button x:Name="BtBack" Content="Назад" HorizontalAlignment="Left" Height="50" Margin="185,347,0,0" VerticalAlignment="Top" Width="125" Click="BtBack_Click"/>
+        <Button x:Name="BtLogin" Content="Войти" HorizontalAlignment="Left" Height="50" Margin="636,347,0,0" VerticalAlignment="Top" Width="125" Click="BtClouse_Click"/>
+        <Image Margin="0,0,701,320" Source="/Doctor;component/Image1.png" Stretch="Fill"/>
+        <Label Content="Учет посещаемости к врачу" HorizontalAlignment="Left" Height="55" Margin="175,0,0,0" VerticalAlignment="Top" Width="478" FontSize="36"/>
+        <Label Content="Регистрация" HorizontalAlignment="Left" Height="55" Margin="309,60,0,0" VerticalAlignment="Top" Width="163" FontSize="24"/>
+    </Grid>
+</Window>
