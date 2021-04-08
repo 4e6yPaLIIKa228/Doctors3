@@ -61,3 +61,10 @@ C:\Users\студент\source\repos\Doctors1-main\Doctor\obj\Debug\Doctor.Prope
 C:\Users\студент\source\repos\Doctors1-main\Doctor\obj\Debug\Doctor.csproj.GenerateResource.cache
 C:\Users\студент\source\repos\Doctors1-main\Doctor\obj\Debug\Doctor.exe
 C:\Users\студент\source\repos\Doctors1-main\Doctor\obj\Debug\Doctor.pdb
+C:\Users\студент\source\repos\Doctors1-main\Doctor\bin\Debug\EntityFramework.dll
+C:\Users\студент\source\repos\Doctors1-main\Doctor\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\студент\source\repos\Doctors1-main\Doctor\bin\Debug\EntityFramework.xml
+C:\Users\студент\source\repos\Doctors1-main\Doctor\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\студент\source\repos\Doctors1-main\Doctor\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\студент\source\repos\Doctors1-main\Doctor\obj\Debug\Doctor_Content.g.cs
+C:\Users\студент\source\repos\Doctors1-main\Doctor\obj\Debug\Doctor.csproj.CopyComplete

@@ -41,9 +41,7 @@ namespace Doctor
 
         private void BtLog_Click(object sender, RoutedEventArgs e)
         {
-            Menu Menu = new Menu();
-            this.Close();
-            Menu.Show();
+            avtoris.Autorisation(TexBxFamil, TexBxSNULS, this);
         }
 
         private void TexBxFamil_PreviewTextInput(object sender, TextCompositionEventArgs e)

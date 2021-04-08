@@ -16,10 +16,10 @@
         <Label Content="Кабинет" HorizontalAlignment="Left" Height="34" Margin="611,178,0,0" VerticalAlignment="Top" Width="80" FontSize="18"/>
         <Button x:Name="BtBack" Content="Назад" HorizontalAlignment="Left" Height="50" Margin="24,346,0,0" VerticalAlignment="Top" Width="125" Click="BtBack_Click"/>
         <Button x:Name="BtClose" Content="Выйти" HorizontalAlignment="Left" Height="50" Margin="178,346,0,0" VerticalAlignment="Top" Width="125" Click="BtClose_Click"/>
-        <DataGrid x:Name="DG1" HorizontalAlignment="Left" Height="59" Margin="40,217,0,0" VerticalAlignment="Top" Width="96" IsReadOnly="True" AutoGenerateColumns="False"/>
-        <DataGrid x:Name="DG2" HorizontalAlignment="Left" Height="59" Margin="203,217,0,0" VerticalAlignment="Top" Width="100" IsReadOnly="True" AutoGenerateColumns="False"/>
-        <DataGrid x:Name="DG3" HorizontalAlignment="Left" Height="59" Margin="396,217,0,0" VerticalAlignment="Top" Width="100" IsReadOnly="True" AutoGenerateColumns="False"/>
-        <DataGrid x:Name="DG4" HorizontalAlignment="Left" Height="59" Margin="611,217,0,0" VerticalAlignment="Top" Width="100" IsReadOnly="True" AutoGenerateColumns="False"/>
+        <DataGrid x:Name="DG1" HorizontalAlignment="Left" Height="39" Margin="40,217,0,0" VerticalAlignment="Top" Width="96" IsReadOnly="True" AutoGenerateColumns="False"/>
+        <DataGrid x:Name="DG2" HorizontalAlignment="Left" Height="39" Margin="203,217,0,0" VerticalAlignment="Top" Width="100" IsReadOnly="True" AutoGenerateColumns="False"/>
+        <DataGrid x:Name="DG3" HorizontalAlignment="Left" Height="39" Margin="396,217,0,0" VerticalAlignment="Top" Width="100" IsReadOnly="True" AutoGenerateColumns="False"/>
+        <DataGrid x:Name="DG4" HorizontalAlignment="Left" Height="39" Margin="611,217,0,0" VerticalAlignment="Top" Width="100" IsReadOnly="True" AutoGenerateColumns="False"/>
 
     </Grid>
 </Window>

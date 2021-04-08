@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Autoris">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Second_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SNILS" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Hospital">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Doctor" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Patient" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Time" Type="nchar" MaxLength="10" />
+    <Property Name="Room" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="Хранилище ModelContainer">
+    <EntitySet Name="Autoris" EntityType="Self.Autoris" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Hospital" EntityType="Self.Hospital" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

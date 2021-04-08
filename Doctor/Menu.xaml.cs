@@ -19,9 +19,11 @@ namespace Doctor
     /// </summary>
     public partial class Menu : Window
     {
+        static Entities db = new Entities();
         public Menu()
         {
             InitializeComponent();
+            Hospital doc = db.Hospital.Where(c => c.Doctor == CB1.Text && c.Time == CB2.Text && c.Room == CB2.Text).SingleOrDefault();
         }
 
         private void BtBack_Click(object sender, RoutedEventArgs e)
